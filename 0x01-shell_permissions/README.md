@@ -1,2 +1,2 @@
 #!/bin/bash
-automatic
+# Shell, permissions
