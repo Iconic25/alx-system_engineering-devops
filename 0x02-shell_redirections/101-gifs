@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cut -c 1 | tr -d '\n')"
+find . -type f -name "*.gif" -printf "%f\n" | sed 's/\.[^.]*$//' | sort -f
